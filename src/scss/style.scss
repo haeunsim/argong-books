@@ -1,0 +1,14 @@
+@use './variables';
+@use './font';
+@use './layout/container';
+@use './layout/text';
+
+@use './components/VCard';
+// @use './components/VTable';
+@use './components/Table';
+
+@import url('https://fastly.jsdelivr.net/gh/wanteddev/wanted-sans@v1.0.1/packages/wanted-sans/fonts/webfonts/variable/split/WantedSansVariable.min.css');
+@import '@/assets/tailwind.css';
+@import '@mdi/font/css/materialdesignicons.css';
+@import 'vue3-perfect-scrollbar/style.css';
+@import '@vuepic/vue-datepicker/dist/main.css';
